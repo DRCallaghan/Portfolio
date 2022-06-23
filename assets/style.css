@@ -126,26 +126,16 @@ nav li {
     width: auto;
 }
 
-.works img {
-    height: auto;
-    width: 300px;
+.perennial img {
+    height: 300px;
+}
+
+.other img {
+    height: 150px;
 }
 
 /*hover box formatting*/
 .mnp {
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    border-radius: 25px;
-    padding: 10px;
-    margin: 20px;
-    flex: 1 0 300px;
-    box-shadow: 5px 5px 10px 0 black;
-    background-color: var(--grey);
-}
-
-.content {
-    justify-content: space-evenly;
     border-style: solid;
     border-color: black;
     border-width: 2px;
@@ -167,39 +157,11 @@ nav li {
     box-shadow: 5px 5px 10px 0;
 }
 
-.works {
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 25px;
-    padding: 10px;
-    margin: 20px;
-    flex: 0 0 100px;
-    box-shadow: 5px 5px 10px 0;
-}
-
 .mnp li:hover {
     border-color: var(--blue);
     box-shadow: 5px 5px 10px 0 var(--red);
 }
-
-.works:hover {
-    border-color: var(--blue);
-    box-shadow: 5px 5px 10px 0 var(--red);
-}
 /* Class Selectors */
-.text-center {
-    text-align: center;
-  }
-  
-.text-right {
-    text-align: right;
-  }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
 .float-right {
     float: right;
     margin-left: 25px;
