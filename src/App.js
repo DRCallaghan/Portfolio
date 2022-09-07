@@ -1,4 +1,4 @@
-import './App.css';
+import './index.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AboutMe from './pages/AboutMe';
@@ -16,7 +16,7 @@ function App() {
               path='/'
               element={<AboutMe />}
             />
-            <Route
+            {/* <Route
               path='/'
               element={<Contact />}
             />
@@ -27,7 +27,7 @@ function App() {
             <Route
               path='/'
               element={<Resume />}
-            />
+            /> */}
           </Routes>
         </div>
       </Router>

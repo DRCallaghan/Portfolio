@@ -20,20 +20,27 @@ const Home = () => {
     };
 
     return (
-        <div>
+        <main>
             <Header />
-            <h1>Hello, I'm Dennis.</h1>
-            <p>
-                I'm a budding web developer just beginning my career. <br></br>
-                My passion to create powerful tools for the game osu!, and for its tournament scene in particular, has
-                led me through the fields of public speaking, graphic design, spreadsheeting, and now web development
-                and app design. <br></br>
-                I believe that all passionate communities deserve the tools they need to develop their hobbies as they
-                see fit, and those tools can often be easily extended to the business sector. <br></br>
-                Check out my recent work and resume above, or contact me if you're interested in my work.
-            </p>
-            <Footer />
-        </div>
+            <div className="flex-row justify-center">
+                <div className="col-12 col-md-10 my-3"></div>
+            </div>
+            <div className="summary">
+                <div className="col-12 col-md-8 my-3">
+                    <h1>Hello, I'm Dennis.</h1>
+                    <p>
+                        I'm a budding web developer just beginning my career. <br></br>
+                        My passion to create powerful tools for the game osu!, and for its tournament scene in particular, has
+                        led me through the fields of public speaking, graphic design, spreadsheeting, and now web development
+                        and app design. <br></br>
+                        I believe that all passionate communities deserve the tools they need to develop their hobbies as they
+                        see fit, and those tools can often be easily extended to the business sector. <br></br>
+                        Check out my recent work and resume above, or contact me if you're interested in my work.
+                    </p>
+                </div>
+            </div>
+            {/* <Footer /> */}
+        </main>
     );
 };
 

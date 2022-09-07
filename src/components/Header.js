@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import favicon from '../assets/images/favicon';
+import favicon from './assets/images/favicon.png';
+import './assets/header.css';
 
 const Header = () => {
     const styles = {
@@ -34,17 +35,22 @@ const Header = () => {
             <div style={styles.headerStyle} className="header">
                 <div className="text-dark">
                     <h1 style={styles.logoStyle} className="m-0">
-                        Carded
+                        Dennis Callaghan | Software Engineer
                     </h1>
                 </div>
-                <img style={styles.logoIcon} src={favicon} alt="logo" className="logo" />
                 <div>
                     <>
-                        <Link className="btn btn-light m-2" to="/login">
-                            Login
+                        <Link className="btn btn-light m-2" to="/">
+                            About Me
                         </Link>
-                        <Link className="btn btn-light m-2" to="/signup">
-                            Signup
+                        <Link className="btn btn-light m-2" to="/portfolio">
+                            Portfolio
+                        </Link>
+                        <Link className="btn btn-light m-2" to="/resume">
+                            Resume
+                        </Link>
+                        <Link className="btn btn-light m-2" to="/contact">
+                            Contact Me
                         </Link>
                     </>
                 </div>

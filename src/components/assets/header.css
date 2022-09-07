@@ -1,0 +1,13 @@
+.header {
+    z-index: 100;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+}
+
+a {
+    padding: 20px;
+}
