@@ -16,7 +16,7 @@ const Header = () => {
         },
         logoStyle: {
             position: 'relative',
-            paddingTop: '10px',
+            paddingBottom: '10px',
             fontSize: 'max(2.5vh + 1.5vw)',
             textShadow: ' 2px 2px  rgba(0,0,0,.2)',
             color: '#14397d',
@@ -32,7 +32,7 @@ const Header = () => {
 
     return (
         <header style={styles.headerStyle}>
-            <div style={styles.headerStyle} className="header">
+            <div style={styles.headerStyle} className="header w-100 mt-auto text-dark p-4">
                 <div className="text-dark">
                     <h1 style={styles.logoStyle} className="m-0">
                         Dennis Callaghan | Software Engineer

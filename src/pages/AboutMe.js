@@ -39,7 +39,7 @@ const Home = () => {
                     </p>
                 </div>
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </main>
     );
 };
