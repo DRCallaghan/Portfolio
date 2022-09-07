@@ -27,7 +27,7 @@ const Home = () => {
             </div>
             <div className="summary">
                 <div className="col-12 col-md-8 my-3">
-                    <h1>Hello, I'm Dennis.</h1>
+                    <h1>About Me</h1>
                     <p>
                         I'm a budding web developer just beginning my career. <br></br>
                         My passion to create powerful tools for the game osu!, and for its tournament scene in particular, has

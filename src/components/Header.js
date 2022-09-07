@@ -1,4 +1,5 @@
 import React from 'react';
+import Navigation from './Navigation';
 import { Link } from 'react-router-dom';
 import favicon from './assets/images/favicon.png';
 import './assets/header.css';
@@ -39,20 +40,7 @@ const Header = () => {
                     </h1>
                 </div>
                 <div>
-                    <>
-                        <Link className="btn btn-light m-2" to="/">
-                            About Me
-                        </Link>
-                        <Link className="btn btn-light m-2" to="/portfolio">
-                            Portfolio
-                        </Link>
-                        <Link className="btn btn-light m-2" to="/resume">
-                            Resume
-                        </Link>
-                        <Link className="btn btn-light m-2" to="/contact">
-                            Contact Me
-                        </Link>
-                    </>
+                    <Navigation />
                 </div>
             </div>
         </header>
