@@ -10,9 +10,9 @@ const Navigation = () => {
             <Link className="btn btn-light m-2" to="/portfolio">
                 Portfolio
             </Link>
-            <Link className="btn btn-light m-2" to="/resume">
+            <a className="btn btn-light m-2" href="https://drive.google.com/file/d/1Z_f51JATbJeuJAPVTXiUpAm_Cy0b8LHy/view">
                 Resume
-            </Link>
+            </a>
             <Link className="btn btn-light m-2" to="/contact">
                 Contact Me
             </Link>
