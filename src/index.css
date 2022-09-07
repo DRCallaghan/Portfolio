@@ -1414,10 +1414,8 @@ a:hover {
 
 .card {
   border: 3px solid #14397d;
-  border-radius: 25px;
   box-shadow: 0 0px 10px 5px rgba(0, 0, 0, .2);
   margin-bottom: 1rem;
-
 }
 
 .card .card-header {
@@ -1430,8 +1428,18 @@ a:hover {
   padding: 0.375rem;
   background-color: #14397d;
   color: #ffffff;
-  border-radius: 22px;
-  border: gold 1.5px solid;
+}
+
+.card a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #ffffff;
+}
+
+.card a :hover {
+  color: #77b5d9;
 }
 
 .card .card-footer {

@@ -19,10 +19,10 @@ function App() {
               path='/contact'
               element={<Contact />}
             />
-            {/* <Route
-              path='/'
+            <Route
+              path='/portfolio'
               element={<Portfolio />}
-            /> */}
+            />
           </Routes>
         </div>
       </Router>

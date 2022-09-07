@@ -1,7 +1,5 @@
 import React from 'react';
 import Navigation from './Navigation';
-import { Link } from 'react-router-dom';
-import favicon from './assets/images/favicon.png';
 import './assets/header.css';
 
 const Header = () => {
